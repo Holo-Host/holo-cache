@@ -1,16 +1,6 @@
 {
-    "name": "holo-cache",
-    "version": "1.0.0",
-    "description": "Cloudflare cache settings",
-    "main": "holo-cache.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "Yegor Timoshenko <yegor.timoshenko@holo.host>",
-    "contributors": [
-        "Paul B. Hartzog <paul.hartzog@holo.host>"
-    ],
-    "license": "MIT",
-    "dependencies": {
+    "main": "src/index.js",
+    "devDependencies": {
+        "standard": "^14.3.1"
     }
 }

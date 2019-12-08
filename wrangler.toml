@@ -1,21 +1,5 @@
-# wrangler.toml
-
-# The name of your Workers application
 name = "holo-cache"
-
-# Your Cloudflare account ID
+type = "webpack"
 account_id = "18ff2b4e6205b938652998cfca0d8cff"
-
-# Your Cloudflare zone ID
 zone_id = "35f34e8f9d04ef8c87283ea9fb812989"
-
-# The route pattern your Workers application will be served at
-route = "cache.holo.host"
-
-# The kind of application you're deploying to Cloudflare
-type = "javascript"
-
-# To disable publishing to your workers.dev subdomain,
-# set private = true in your wrangler.toml
-private = true
-
+route = "cache.holo.host/*"
